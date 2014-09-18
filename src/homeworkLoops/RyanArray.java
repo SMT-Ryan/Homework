@@ -2,13 +2,24 @@ package homeworkLoops;
 
 import java.util.Random;
 
-public class ryanArray {
+/**
+ * <b>Title</B>: RyanArray.java Description: An object that fills an array 
+ * with large positive random numbers.  
+ * 
+ * Copyright: Copyright (c) 2014 Company: Silicon Mountain Technologies
+ * @author: Ryan Riker
+ * @version 1.0
+ * @since 09/10/2014 
+ * last update: 09/18/2014
+ */
+
+public class RyanArray {
 	private int[] startingArray = new int[9];
 	private int count = 0;
 	private int value = 0;
 	
 	//empty constructor
-	public ryanArray() {
+	public RyanArray() {
 		
 	}
 
@@ -16,7 +27,9 @@ public class ryanArray {
 		
 do { 
 			
-			//this is the way i came up with to produce random numbers
+			/**
+			 * This is the way I came up with to produce random numbers
+			 */
 			Random randomNumber = new Random();
 			value = randomNumber.nextInt(10);
 			startingArray[count] = value * -1;

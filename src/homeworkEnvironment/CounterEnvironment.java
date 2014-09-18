@@ -1,15 +1,13 @@
 package homeworkEnvironment;
 
-
-
-
 import homeworkLoops.Counter;
-import homeworkLoops.homeworkArray;
-import homeworkLoops.ryanArray;
+import homeworkLoops.HomeworkArray;
+import homeworkLoops.RyanArray;
 
 /*******************************************************************************
- * <b>Title</B>: LoopCounter.java Description: The location of code that uses
- * several types of loops to count. part of the programming 1 class assignments.
+ * <b>Title</B>: CounterEnvironment.java Description: The location of code that 
+ * uses a counter object to count various ways. part of the programming class 
+ * assignments.
  * Copyright: Copyright (c) 2014 Company: Silicon Mountain Technologies
  *
  * @author: Ryan Riker
@@ -20,8 +18,8 @@ import homeworkLoops.ryanArray;
 public class CounterEnvironment {
 	public static void main(String[] args) {
 		
-		CounterEnvironment lc = new CounterEnvironment();
-		lc.process();
+		CounterEnvironment counterEnviroment = new CounterEnvironment();
+		counterEnviroment.process();
 		
 	}
 	
@@ -36,7 +34,8 @@ public class CounterEnvironment {
 		int target = 0;
 		int increment = 0;
 		
-		messages.englishAllAgesMessages message = new messages.englishAllAgesMessages();
+		messages.englishAllAgesMessages message = 
+				new messages.englishAllAgesMessages();
 
 		message.messageSelection("m1");
 
@@ -85,18 +84,26 @@ public class CounterEnvironment {
 
 		message.messageSelection("m5");
 
-		// open a new countingEven instance
-		ryanArray testArray = new ryanArray();
+		/**
+		 * open a new countingEven instance
+		 */
+		RyanArray testArray = new RyanArray();
 
-		// call count method
+		/**
+		 * call count method
+		 */
 		testArray.dispArray();
 
 		message.messageSelection("m6");
 
-		// open a new countingEven instance
-		homeworkArray secondTestArray = new homeworkArray();
+		/**
+		 * open a new countingEven instance
+		 */
+		HomeworkArray secondTestArray = new HomeworkArray();
 
-		// call count method
+		/**
+		 * call count method
+		 */
 		secondTestArray.dispArray();
 
 	}

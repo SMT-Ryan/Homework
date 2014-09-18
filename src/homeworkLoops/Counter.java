@@ -1,5 +1,14 @@
 package homeworkLoops;
-
+/**
+ * <b>Title</B>: Counter.java Description: A counter object set to count based
+ * incoming variables.
+ * 
+ * Copyright: Copyright (c) 2014 Company: Silicon Mountain Technologies
+ * @author: Ryan Riker
+ * @version 1.0
+ * @since 09/10/2014 
+ * last update: 09/18/2014
+ */
 public class Counter {
 private int count = 0;
 	
@@ -36,14 +45,14 @@ private int count = 0;
 
 
 	
-		}
+			}
 		
 			
 			
-			}
-			
-			
-			
 		}
+			
+			
+			
 	}
+}
 
