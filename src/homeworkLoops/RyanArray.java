@@ -18,7 +18,9 @@ public class RyanArray {
 	private int count = 0;
 	private int value = 0;
 	
-	//empty constructor
+	/**
+	 * empty constructor
+	 */
 	public RyanArray() {
 		
 	}
@@ -33,7 +35,8 @@ do {
 			Random randomNumber = new Random();
 			value = randomNumber.nextInt(10);
 			startingArray[count] = value * -1;
-			System.out.println("the number in slot " + count + " of the Ryan array is : " + startingArray[count] );
+			System.out.println("The number in element " + count + " of the "
+					+ "current array is : " + startingArray[count] );
 			
 			
 			count++;

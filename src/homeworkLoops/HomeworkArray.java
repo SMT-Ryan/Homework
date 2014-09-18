@@ -30,12 +30,13 @@ public class HomeworkArray {
 			
 			/**
 			 * This is the one line function copied from the homework, I assume 
-			 * +1 was to remove the zero option.  abs returns only absolute values so 
-			 * no negative values.
+			 * +1 was to remove the zero option.  abs returns only absolute 
+			 * values so no negative values.
 			 */
 			int randVal = Math.abs(new Random().nextInt()) + 1;
 			secondArray[count] = randVal;
-			System.out.println("the " + count + " element of the homework array is : " + secondArray[count] );
+			System.out.println("The number in element " + count + " of the "
+					+ "current array is : " + secondArray[count] );
 
 			count++;
 		} while ( count < secondArray.length );
