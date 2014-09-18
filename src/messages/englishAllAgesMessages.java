@@ -13,15 +13,18 @@ package messages;
 
 public class englishAllAgesMessages {
 	
-	private final String ENG_MESSAGE1 = "now counting up.";
-	private final String ENG_MESSAGE2 = "now counting down.";
-	private final String ENG_MESSAGE3 = "now displaying even numbers.";
-	private final String ENG_MESSAGE4 = "now displaying odd numbers.";
-	private final String ENG_MESSAGE5_1 = "now displaying two array classes, "
-			+ "one filled with ";
-	private final String ENG_MESSAGE5_2 = "random numbers they way I came up "
-			+ "with, and one";
-	private final String ENG_MESSAGE5_3 = "directly from the assignment";
+	private final String ENG_MESSAGE1 = "The program is now counting up.";
+	private final String ENG_MESSAGE2 = "The program is now counting down.";
+	private final String ENG_MESSAGE3 = "The program is now displaying even "
+			+ "	numbers.";
+	private final String ENG_MESSAGE4 = "The program is now displaying odd "
+			+ "numbers.";
+	private final String ENG_MESSAGE5_1 = "The program is now displaying two "
+			+ "array classes. ";
+	private final String ENG_MESSAGE5_2 = "The two arrays are filled with "
+			+ "random numbers.";
+	private final String ENG_MESSAGE5_3 = "The first one will show negitive "
+			+ "numbers, and the second positive.";
 	private final String ENG_MESSAGE5_4 = "the ryan array is filled with "
 			+ "negitive numbers.";
 	private final String ENG_MESSAGE6 = "the homework array is filled with "
