@@ -2,10 +2,10 @@ package messages;
 
 public class englishAllAgesMessages {
 	
-	private final String ENG_MESSAGE1 = "now counting up with a while loop.";
-	private final String ENG_MESSAGE2 = "now counting down with a for loop.";
-	private final String ENG_MESSAGE3 = "now displaying even numbers between 1-20.";
-	private final String ENG_MESSAGE4 = "now displaying odd numbers between 1-20.";
+	private final String ENG_MESSAGE1 = "now counting up.";
+	private final String ENG_MESSAGE2 = "now counting down.";
+	private final String ENG_MESSAGE3 = "now displaying even numbers.";
+	private final String ENG_MESSAGE4 = "now displaying odd numbers.";
 	private final String ENG_MESSAGE5_1 = "now displaying two array classes, one filled with ";
 	private final String ENG_MESSAGE5_2 = "random numbers they way i came up with, and one";
 	private final String ENG_MESSAGE5_3 = "directly from the assignment";
