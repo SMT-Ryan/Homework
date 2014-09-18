@@ -30,8 +30,6 @@ public class englishAllAgesMessages {
 	private final String ENG_MESSAGE6 = "the homework array is filled with "
 			+ "positive non zero numbers";
 	
-	
-
 	/**
 	 * empty constructor
 	 */
