@@ -22,7 +22,7 @@ public class LoopCounter {
 		
 		LoopCounter lc = new LoopCounter();
 		lc.process();
-		//testing git hub yo
+		
 	}
 	
 	/**
