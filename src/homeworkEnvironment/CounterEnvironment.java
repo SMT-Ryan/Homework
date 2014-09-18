@@ -56,7 +56,7 @@ public class CounterEnvironment {
 		 * using same loop to count down
 		 *
 		 */
-		value = 0;
+		value = 25;
 		target = -15;
 		increment = -1;
 		counterLoop.count(value, target, increment);
