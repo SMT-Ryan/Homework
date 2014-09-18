@@ -17,10 +17,10 @@ import homeworkLoops.ryanArray;
  * @since 09/10/2014 last update: never
  ******************************************************************************/
 
-public class LoopCounter {
+public class CounterEnvironment {
 	public static void main(String[] args) {
 		
-		LoopCounter lc = new LoopCounter();
+		CounterEnvironment lc = new CounterEnvironment();
 		lc.process();
 		
 	}
